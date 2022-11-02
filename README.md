@@ -4,4 +4,4 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
  ### Links
  - Live Site URL: https://quelleris-sunnyside-agency.netlify.app/
- - olution URL: https://github.com/Quelleris/Sunnyside-agency-landing-page/
+ - Solution URL: https://github.com/Quelleris/Sunnyside-agency-landing-page/
