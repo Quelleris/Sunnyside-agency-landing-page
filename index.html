@@ -12,13 +12,15 @@
   <link rel="stylesheet" href="src/style/style.css">
   <!-- Javascript -->
   <script src="/src/js/script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 </head>
 <body>
   <!-- HEADER -->
   <header class="header" data-header>
-    <a href="#">
-      <img src="/src/images/logo.svg" alt="sunnyside">
+    <a href="#" class="logo">
+      <img src="/src/images/logo.svg" alt="sunnyside" class="logo-img">
     </a>
     <nav class="navbar" data-navbar>
       <ul class="navbar-list">
@@ -132,8 +134,8 @@
 
   <!-- FOOTER -->
   <footer>
-    <a href="#">
-    <img src="src/images/logo.svg" alt="sunnyside" class="logo">
+    <a href="#" class="logo">
+      <img src="src/images/logo-footer.svg" alt="sunnyside" class="footer-logo logo-img">
     </a>
       <ul class="footer-links">
         <li>
@@ -148,16 +150,16 @@
       </ul>
     <div class="social-media">
       <a href="#">
-        <img src="src/images/icon-facebook.svg" alt="facebook">
+        <ion-icon name="logo-facebook"></ion-icon>
       </a>
       <a href="#">
-        <img src="src/images/icon-instagram.svg" alt="instagram">
+        <ion-icon name="logo-instagram"></ion-icon>
       </a>
       <a href="#">
-        <img src="src/images/icon-twitter.svg" alt="twitter">
+        <ion-icon name="logo-twitter"></ion-icon>
       </a>
       <a href="#">
-        <img src="src/images/icon-pinterest.svg" alt="pinterest">
+        <ion-icon name="logo-pinterest"></ion-icon>
       </a>
     </div>
     <div class="attribution">
