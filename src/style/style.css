@@ -373,8 +373,36 @@ ion-icon:hover {
     color: var(--white);
 }
 
-/* MEDIA QUERIES */
+.back-to-top-btn {
+    position: fixed;
+    text-align: center;
+    height: 40px;
+    aspect-ratio: 1;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.25s ease-in-out;
+}
 
+.back-to-top-btn.active {
+    opacity: 1;
+}
+
+.back-to-top-btn ion-icon {
+    color: var(--darkBlue);
+}
+.back-to-top-btn:hover {
+    transform: translateY(-5px);
+}
+
+
+.back-to-top-btn:hover ion-icon {
+    color: var(--white);
+}
+
+/* MEDIA QUERIES */
 /* MOBILE */
 @media (max-width: 52em) {
     .navbar {
